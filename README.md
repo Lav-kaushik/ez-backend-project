@@ -42,12 +42,19 @@ A secure FastAPI-based file management system that allows users to upload and do
 4. Set up environment variables: Create a .env file in the project root with the following variables:
     At mention
     DATABASE_URL=sqlite:///./test.db
+   
     SECRET_KEY=your-secret-key-here
+   
     ALGORITHM=HS256
+   
     ACCESS_TOKEN_EXPIRE_MINUTES=30
+   
     AWS_ACCESS_KEY_ID=your-aws-access-key
+   
     AWS_SECRET_ACCESS_KEY=your-aws-secret-key
+   
     AWS_REGION=your-aws-region
+   
     S3_BUCKET_NAME=your-s3-bucket-name
 
    
